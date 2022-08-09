@@ -1,0 +1,172 @@
+{
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "teams": [
+    {
+      "name": "England",
+      "players": [
+        {
+          "name": "David",
+          "age": "32",
+          "position": "Goalkeeper"
+        },
+        {
+          "name": "John",
+          "age": "27",
+          "position": "Defender"
+        },
+        {
+          "name": "Mark",
+          "age": "29",
+          "position": "Midfielder"
+        },
+        {
+          "name": "Paul",
+          "age": "25",
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "players": [
+        {
+          "name": "Andrea",
+          "age": "32",
+          "position": "Goalkeeper"
+        },
+        {
+          "name": "Marco",
+          "age": "27",
+          "position": "Defender"
+        },
+        {
+          "name": "Gianluigi",
+          "age": "29",
+          "position": "Midfielder"
+        },
+        {
+          "name": "Lorenzo",
+          "age": "25",
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "name": "Spain",
+      "players": [
+        {
+          "name": "Xabi",
+          "age": "32",
+          "position": "Goalkeeper"
+        },
+        {
+          "name": "Iker",
+          "age": "27",
+          "position": "Defender"
+        },
+        {
+          "name": "Sergio",
+          "age": "29",
+          "position": "Midfielder"
+        },
+        {
+          "name": "Javier",
+          "age": "25",
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "players": [
+        {
+          "name": "Manuel",
+          "age": "32",
+          "position": "Goalkeeper"
+        },
+        {
+          "name": "Johann",
+          "age": "27",
+          "position": "Defender"
+        },
+        {
+          "name": "Fabian",
+          "age": "29",
+          "position": "Midfielder"
+        },
+        {
+          "name": "Mario",
+          "age": "25",
+          "position": "Forward"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "1",
+      "team1": "England",
+      "team2": "Italy",
+      "score1": "3",
+      "score2": "1",
+      "penalties": "0",
+      "outcome": "England won"
+    },
+    {
+      "id": "2",
+      "team1": "Spain",
+      "team2": "Germany",
+      "score1": "2",
+      "score2": "0",
+      "penalties": "1",
+      "outcome": "Spain won"
+    },
+    {
+      "id": "3",
+      "team1": "Italy",
+      "team2": "Spain",
+      "score1": "1",
+      "score2": "1",
+      "penalties": "0",
+      "outcome": "Draw"
+    },
+    {
+      "id": "4",
+      "team1": "Germany",
+      "team2": "England",
+      "score1": "4",
+      "score2": "3",
+      "penalties": "1",
+      "outcome": "Germany won"
+    }
+  ],
+  "fouls": [
+    {
+      "team": "England",
+      "player": "John",
+      "fouls": "2",
+      "matchId": "1"
+    },
+    {
+      "team": "Italy",
+      "player": "Marco",
+      "fouls": "1",
+      "matchId": "1"
+    },
+    {
+      "team": "Spain",
+      "player": "Xabi",
+      "fouls": "3",
+      "matchId": "2"
+    },
+    {
+      "team": "Germany",
+      "player": "Mario",
+      "fouls": "1",
+      "matchId": "4"
+    }
+  ]
+}
